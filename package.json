@@ -1,0 +1,14 @@
+{
+  "name": "t480-task-list",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Small task-list web app using localStorage, served by a built-in Node static server.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test/*.test.js"
+  }
+}
